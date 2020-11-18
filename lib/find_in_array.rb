@@ -12,7 +12,7 @@ def find_element_index(array, value_to_find)
     if (array[count] === value_to_find) 
       puts true
     else 
-      outs false
+      puts false
     end
     count += 1
   end
