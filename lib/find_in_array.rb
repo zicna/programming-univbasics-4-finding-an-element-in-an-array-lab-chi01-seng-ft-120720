@@ -19,3 +19,5 @@ def find_element_index(array, value_to_find)
   
   #using code block parameters
 end
+
+find_element_index(["a", "b", "c", "d", "e"], "c")
