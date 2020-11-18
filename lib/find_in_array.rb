@@ -10,7 +10,9 @@ def find_element_index(array, value_to_find)
   count = 0
   while arr_len > count do
     if (array[count] === value_to_find) 
-      puts array[count].index()
+      puts true
+    else 
+      outs false
     end
     count += 1
   end
