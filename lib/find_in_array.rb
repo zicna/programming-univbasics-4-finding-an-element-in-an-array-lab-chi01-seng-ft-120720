@@ -8,12 +8,15 @@ def find_element_index(array, value_to_find)
   #using while
   arr_len = array.size
   count = 0
+  found_value_index = nil
   while arr_len > count do
-    puts array[count] == value_to_find
+    if (array[count] == value_to_find)
+      found_value_index = count
+    end
     count += 1
   end
   
-  
+  return found_value_index
   
   #using code block parameters
 end
