@@ -9,7 +9,7 @@ def find_element_index(array, value_to_find)
   arr_len = array.size
   count = 0
   while arr_len > count do
-    if (array[count] == count) do
+    if (array[count] == count) 
       return array[count].index(value_to_find)
     
     count += 1
